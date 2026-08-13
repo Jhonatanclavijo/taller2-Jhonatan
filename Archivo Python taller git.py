@@ -1,11 +1,12 @@
 "operaciones matematicas Basicas"
 a=50
 b=15
+c=30
 
-Suma=a+b
-Resta=a-b
-Multiplicacion=a*b
-Division=a/b
+Suma=a+b+c
+Resta=a-b-c
+Multiplicacion=a*b*c
+Division=(a/b)/c
 
 print(f"Suma = {Suma}")
 print(f"Resta = {Resta}")

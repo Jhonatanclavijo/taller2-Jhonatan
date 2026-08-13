@@ -1,3 +1,4 @@
+import math
 "operaciones matematicas Basicas"
 a=50
 b=15
@@ -13,3 +14,8 @@ print(f"Resta = {Resta}")
 print(f"Multiplicacion = {Multiplicacion}")
 print(f"Division = {Division}")
 
+"operaciones complejas"
+potencia=(a**b)**c
+raiz=math.sqrt(a*b*c)
+factorial_a= math.factorial(a)
+promedio= (a+b+c)/3

@@ -19,3 +19,13 @@ potencia=(a**b)**c
 raiz=math.sqrt(a*b*c)
 factorial_a= math.factorial(a)
 promedio= (a+b+c)/3
+
+combinaciones = math.comb(a, b)
+permutaciones = math.perm(a, b)
+
+print(f"Potencia = {potencia}")
+print(f"Raiz = {raiz}")
+print(f"Factorial de a = {factorial_a}")
+print(f"Promedio = {promedio}")
+print(f"Combinaciones = {combinaciones}")
+print(f"Permutaciones = {permutaciones}")

@@ -7,7 +7,10 @@ c=30
 Suma=a+b+c
 Resta=a-b-c
 Multiplicacion=a*b*c
-Division=(a/b)/c
+if b != 0 and c != 0:
+    Division = (a / b) / c
+else:
+    Division = "No se puede dividir por cero"
 
 print(f"Suma = {Suma}")
 print(f"Resta = {Resta}")
@@ -29,3 +32,11 @@ print(f"Factorial de a = {factorial_a}")
 print(f"Promedio = {promedio}")
 print(f"Combinaciones = {combinaciones}")
 print(f"Permutaciones = {permutaciones}")
+
+print("\nAnalisis de los numeros")
+
+for numero in [a, b, c]:
+    if numero % 2 == 0:
+        print(f"{numero} es par")
+    else:
+        print(f"{numero} es impar")
